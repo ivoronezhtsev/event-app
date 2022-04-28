@@ -1,4 +1,4 @@
-package ru.voronezhtsev.event_app
+package ru.voronezhtsev.event_app.network
 
 import kotlinx.serialization.Serializable
 
@@ -7,6 +7,6 @@ data class Event(
     val title: String,
     val desc: String,
     val userId: Long,
-    val cityId: Long
-    //todo Дата?
+    val addressId: Long,
+    val date: String
 )
